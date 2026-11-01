@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "multiraid",
+  "version": "${version}",
+  "name": "Multi Raid",
+  "description": "Mehrere gleichzeitige Raids mit je einer eigenen Bossbar.",
+  "authors": ["MultiRaid"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.multiraid.MultiRaidMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
